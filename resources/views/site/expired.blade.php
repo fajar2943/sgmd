@@ -1,0 +1,38 @@
+@extends('layouts.site')
+@section('title')
+    Expired - FamsNet
+@endsection
+@section('content')
+
+<!-- Header -->
+<header class="ex-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 offset-xl-1">
+                <h1>Pesanan {{$order->inv}} telah kadaluwarsa</h1>
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</header> <!-- end of ex-header -->
+<!-- end of header -->
+
+
+<!-- Basic -->
+<div class="ex-basic-1 pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 offset-xl-1">
+                <div class="text-box mt-5 mb-5 p-4">
+                    <h2 class="mb-5">Mohon maaf, pesanan anda telah kadaluwarsa, silahkan untuk melakukan pembelian ulang!</h2>
+                    <div class="text-center">
+                        <a class="btn btn-tertiary" href="/#plans">Beli Voucher</a>
+                    </div>
+                </div> <!-- end of text-box -->
+
+            </div> <!-- end of col -->
+        </div> <!-- end of row -->
+    </div> <!-- end of container -->
+</div> <!-- end of ex-basic-1 -->
+<!-- end of basic -->
+    
+@endsection
