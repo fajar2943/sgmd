@@ -130,7 +130,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/testimonies" class="nav-link @if(request()->is('admin/testimonies')) active @endif">
+            <a href="/admin/testimonials" class="nav-link @if(request()->is('admin/testimonials')) active @endif">
               <i class="nav-icon fas fa-star"></i>
               <p>
                 Testimoni
